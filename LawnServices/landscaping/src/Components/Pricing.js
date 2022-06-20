@@ -10,7 +10,7 @@ const Pricing = () => {
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div className="carousel-inner">
+                <div className="carousel-inner mt-5 py-2">
                     <div className="carousel-item active">
                         <div className="container">
                             <div className="row justify-content-around align-content-center d-flex">

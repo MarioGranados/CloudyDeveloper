@@ -3,7 +3,7 @@ import Gallery from "./Gallery";
 const OurWork = () => {
     return(
         <>
-            <div className="container mt-5 ">
+            <div className="container mt-5 py-5 min-vh-100">
 
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                     <li className="nav-item" role="presentation">

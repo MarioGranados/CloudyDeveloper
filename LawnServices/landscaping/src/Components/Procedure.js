@@ -1,19 +1,19 @@
 import Cards from "./Cards";
-import {maintenance} from "../Utils/Data";
+import {stepOne, stepThree, stepTwo} from "../Utils/Data";
 
 const Procedure = () => {
     return(
         <>
-            <div className="container">
+            <div className="container mt-5 py-5">
                 <div className="row">
                     <div className="col">
-                        <Cards {...maintenance}/>
+                        <Cards {...stepOne}/>
                     </div>
                     <div className="col">
-                        <Cards {...maintenance}/>
+                        <Cards {...stepTwo}/>
                     </div>
                     <div className="col">
-                        <Cards {...maintenance}/>
+                        <Cards {...stepThree}/>
                     </div>
                 </div>
             </div>
