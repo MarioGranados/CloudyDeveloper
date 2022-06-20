@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import {obj1} from "../Utils/Data";
+import {maintenance} from "../Utils/Data";
 
 const Pricing = () => {
     return(
@@ -15,22 +15,10 @@ const Pricing = () => {
                         <div className="container">
                             <div className="row justify-content-around align-content-center d-flex">
                                 <div className="col-6">
-                                    <Cards {...obj1}/>
+                                    <Cards {...maintenance}/>
                                 </div>
                                 <div className="col-6">
-                                    <Cards {...obj1}/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="container">
-                            <div className="row justify-content-around align-content-center d-flex">
-                                <div className="col-6">
-                                    <Cards {...obj1}/>
-                                </div>
-                                <div className="col-6">
-                                    <Cards {...obj1}/>
+                                    <Cards {...maintenance}/>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +27,22 @@ const Pricing = () => {
                         <div className="container">
                             <div className="row justify-content-around align-content-center d-flex">
                                 <div className="col-6">
-                                    <Cards {...obj1}/>
+                                    <Cards {...maintenance}/>
                                 </div>
                                 <div className="col-6">
-                                    <Cards {...obj1}/>
+                                    <Cards {...maintenance}/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="container">
+                            <div className="row justify-content-around align-content-center d-flex">
+                                <div className="col-6">
+                                    <Cards {...maintenance}/>
+                                </div>
+                                <div className="col-6">
+                                    <Cards {...maintenance}/>
                                 </div>
                             </div>
                         </div>

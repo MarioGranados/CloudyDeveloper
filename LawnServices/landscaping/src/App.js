@@ -6,14 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap';
 import Services from "./Components/Services";
 import AboutUs from "./Components/AboutUs";
-import {about} from "./Utils/Data";
 import Procedure from "./Components/Procedure";
 import OurWork from "./Components/OurWork";
 import Pricing from "./Components/Pricing";
 import Footer from "./Components/Footer";
 function App() {
   return (
-    <>
+    <div className='bg-light'>
       <Navbar/>
         <Banner/>
         <Services/>
@@ -23,7 +22,7 @@ function App() {
         <OurWork/>
         <Pricing/>
         <Footer/>
-    </>
+    </div>
   );
 }
 

@@ -1,19 +1,21 @@
-import {obj1} from "../Utils/Data";
+
 import Cards from "./Cards"
+import {lawnMover, leafCleanups, maintenance, overgrown} from "../Utils/Data";
+
 const Services = () => {
     return(
         <>
-            <div className="container">
-                <h4 className='display-4 text-center'>Services</h4>
+            <div className="container py-5">
+                <h4 className='display-4 mb-5 font-weight-bolder text-dark'>Services</h4>
                 <div className="row">
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...maintenance}/>
                     </div>
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...overgrown}/>
                     </div>
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...leafCleanups}/>
                     </div>
                 </div>
 

@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import {obj1} from "../Utils/Data";
+import {maintenance} from "../Utils/Data";
 
 const Procedure = () => {
     return(
@@ -7,13 +7,13 @@ const Procedure = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...maintenance}/>
                     </div>
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...maintenance}/>
                     </div>
                     <div className="col">
-                        <Cards {...obj1}/>
+                        <Cards {...maintenance}/>
                     </div>
                 </div>
             </div>
